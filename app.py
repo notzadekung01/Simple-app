@@ -4,13 +4,13 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-        return"Welcome!"
+    return "Welcome!"
 
- @app.route('/hello')
+@app.route('/hello')
 def hello():
-        return'I am good , how about you?'
+    return'I am good , how about you?'
 
-if __name__=="__main__":
+if __name__== "__main__":
     app.run(host="0.0.0.0", port=8080)
 
 
